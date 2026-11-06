@@ -1,0 +1,26 @@
+# A tag (vX.Y.Z or vX.Y.Z-rc.N) publishes recipe360.mcpb as that release's file, the address the MCP Registry
+# points to.
+name: release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Check the bundle against server.json
+        run: |
+          want=$(python3 -c "import json; print(json.load(open('server.json'))['packages'][0]['fileSha256'])")
+          have=$(sha256sum recipe360.mcpb | cut -d' ' -f1)
+          test "$want" = "$have" || { echo "recipe360.mcpb does not match server.json"; exit 1; }
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pre=""
+          case "$GITHUB_REF_NAME" in *-*) pre="--prerelease";; esac
+          gh release create "$GITHUB_REF_NAME" recipe360.mcpb --title "Recipe360 $GITHUB_REF_NAME" $pre \
+            --notes "Connects the Claude desktop app to Recipe360 installed from https://recipe.pulso360.ai. sha256: $(sha256sum recipe360.mcpb | cut -d' ' -f1)"
