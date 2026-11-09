@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "recipe360": {
+      "type": "stdio",
+      "command": "recipe360",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}

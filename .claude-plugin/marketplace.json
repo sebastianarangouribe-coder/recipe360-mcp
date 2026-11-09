@@ -1,0 +1,15 @@
+{
+  "name": "pulso360",
+  "description": "Recipe360, by Pulso 360",
+  "owner": {
+    "name": "Pulso 360 S.A.S.",
+    "url": "https://recipe.pulso360.ai"
+  },
+  "plugins": [
+    {
+      "name": "recipe360",
+      "source": "./plugins/recipe360",
+      "description": "Your AI runs your data workflows the same way every time, on any model, with a record of every run. Your data stays on your computer."
+    }
+  ]
+}

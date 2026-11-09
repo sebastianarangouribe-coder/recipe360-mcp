@@ -1,0 +1,27 @@
+{
+  "name": "recipe360",
+  "displayName": "Recipe360",
+  "version": "0.1.0-rc.6",
+  "description": "Your AI runs your data workflows the same way every time, on any model, with a record of every run. Your data stays on your computer.",
+  "author": {
+    "name": "Pulso 360 S.A.S.",
+    "url": "https://recipe.pulso360.ai"
+  },
+  "homepage": "https://recipe.pulso360.ai",
+  "repository": "https://github.com/sebastianarangouribe-coder/recipe360-mcp",
+  "license": "Apache-2.0",
+  "keywords": [
+    "recipes",
+    "workflows",
+    "data",
+    "audit",
+    "deterministic",
+    "excel",
+    "csv"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://recipe.pulso360.ai/docs/",
+  "supportUrl": "https://recipe.pulso360.ai/docs/troubleshooting.md",
+  "privacyPolicyUrl": "https://recipe.pulso360.ai/privacy/",
+  "termsOfServiceUrl": "https://recipe.pulso360.ai/terms/"
+}
