@@ -1,0 +1,36 @@
+{
+ "cards_read": 400,
+ "excluded": 20,
+ "check_digit_failures": 29,
+ "cvv_incomplete": 9,
+ "clients": 110,
+ "concentrated_clients": 14,
+ "by_validity": {
+  "expired": 121,
+  "expiring_soon": 13,
+  "valid": 246
+ },
+ "by_level": {
+  "low": 106,
+  "medium": 222,
+  "high": 37,
+  "critical": 15
+ },
+ "by_decision": {
+  "do_not_renew": 7,
+  "renew": 114,
+  "review_limit": 1,
+  "cut_limit_committee": 19,
+  "cut_limit": 0,
+  "reissue_chip": 13,
+  "force_pin_change": 137,
+  "renew_early": 4,
+  "no_action": 85
+ },
+ "active_without_chip": 18,
+ "old_pin": 242,
+ "active_credit_limit": 4919000,
+ "total_limit_reduction": 242000,
+ "committee_approvals": 19,
+ "letters": 99
+}

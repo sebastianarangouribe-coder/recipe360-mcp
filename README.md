@@ -13,6 +13,9 @@ This repository holds no Recipe360 code: Recipe360 itself is installed and activ
 - **recipe360.mcpb**, an [MCP Bundle](https://github.com/modelcontextprotocol/mcpb), for the chat in the Claude
   desktop app (and other MCP Bundle hosts).
 
+It also holds [a benchmark anyone can repeat](benchmark): a public task, invented data, an independent reference
+and exact scoring, to measure the same process with and without a recipe.
+
 ## Install
 
 1. Install Recipe360 with its one-line installer from https://recipe.pulso360.ai and activate it with your
