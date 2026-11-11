@@ -61,7 +61,12 @@ Ask Claude in plain words:
     https://recipe.pulso360.ai/licence/ with the licence key, a random installation id, a one-way fingerprint of
     the computer, the computer's name, and the Recipe360 version and operating system;
   - time stamps, only if you turn them on (`recipe360 timestamps on`): the sha256 fingerprint of each new run
-    record goes to the time-stamping authority you choose, FreeTSA (https://freetsa.org) by default.
+    record and of each approval decision goes to the time-stamping authority you choose, FreeTSA
+    (https://freetsa.org) by default;
+  - telemetry, only if you turn it on (`recipe360 telemetry on`, or a collector's address): each run and each
+    approval decision goes to the collector you name (one on your own computer when you name none) as an
+    OpenTelemetry trace with names, counts, times and fingerprints, and who ran it. Never a row of data, a
+    parameter's value or a folder's path. The collector is your company's own; Pulso 360 runs none.
 
 No data file, recipe, result, run record or conversation is ever sent, and Pulso 360 does not receive them.
 The full data flow is in [Security and data flow](https://recipe.pulso360.ai/docs/security.md).
