@@ -1,7 +1,7 @@
 {
   "name": "recipe360",
   "displayName": "Recipe360",
-  "version": "0.1.0-rc.7",
+  "version": "0.1.0-rc.8",
   "description": "Your AI runs your data workflows the same way every time, on any model, with a record of every run. Your data stays on your computer.",
   "author": {
     "name": "Pulso 360 S.A.S.",
