@@ -14,7 +14,7 @@ Recipe360 is a separate program, installed and activated on your computer:
 
 1. Install it with the one-line installer from https://recipe.pulso360.ai (macOS with Apple silicon, Linux or
    Windows).
-2. Activate it with your licence key: `recipe360 activate R360-...`. A 15-day free trial is available; after it,
+2. Activate it with your licence key: `recipe360 activate R360-...`. A 14-day free trial is available; after it,
    Recipe360 costs USD 10 a month or USD 90 a year per computer.
 3. Open a new terminal and check that `recipe360 --version` answers. The plugin starts Recipe360 by that name.
 
