@@ -19,7 +19,7 @@ and exact scoring, to measure the same process with and without a recipe.
 ## Install
 
 1. Install Recipe360 with its one-line installer from https://recipe.pulso360.ai and activate it with your
-   licence key (`recipe360 activate R360-...`). A 15-day free trial is available.
+   licence key (`recipe360 activate R360-...`). A 14-day free trial is available.
 2. Then, depending on where you use Claude:
    - **Claude Code or Cowork**: add the plugin from Claude's plugin directory, or in Claude Code run
      `/plugin install recipe360 --marketplace sebastianarangouribe-coder/recipe360-mcp`.
