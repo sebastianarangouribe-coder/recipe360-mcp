@@ -3,7 +3,7 @@
   "name": "ai.pulso360/recipe360",
   "title": "Recipe360",
   "description": "Your AI runs your data workflows the same way every time, with a record of every run.",
-  "version": "0.1.0-rc.25",
+  "version": "0.1.0-rc.26",
   "websiteUrl": "https://recipe.pulso360.ai",
   "repository": {
     "url": "https://github.com/sebastianarangouribe-coder/recipe360-mcp",
@@ -12,8 +12,8 @@
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/sebastianarangouribe-coder/recipe360-mcp/releases/download/v0.1.0-rc.25/recipe360.mcpb",
-      "fileSha256": "038dcc4e534814da3d723b07a647961af74636068737d6c0d8c4a56c9193200b",
+      "identifier": "https://github.com/sebastianarangouribe-coder/recipe360-mcp/releases/download/v0.1.0-rc.26/recipe360.mcpb",
+      "fileSha256": "e6e195a79fd034ebdec9d56fd9c857658d74bf5006b414842c2d99dc1dd819f1",
       "transport": {
         "type": "stdio"
       }
